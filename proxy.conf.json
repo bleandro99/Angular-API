@@ -1,0 +1,41 @@
+{
+    "/listar/*": {
+        "target": "",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/listar": ""
+        }
+    },
+
+    "/agregar/*": {
+        "target": "",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/agregar": ""
+        }
+    },
+
+    "/eliminar/*": {
+        "target": "",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/eliminar/*": ""
+        }
+    },
+
+    "/editar/*": {
+        "target": "",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/editar/*": ""
+        }
+    }
+}
